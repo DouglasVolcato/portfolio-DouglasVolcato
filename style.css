@@ -76,6 +76,9 @@ p{
     border-style: solid;
     border-color:rgb(204, 255, 0);
 }
+.listaProjetos{
+    list-style: none;
+}
 #projetos{
     text-align: center;
     margin-top: 10vw;
