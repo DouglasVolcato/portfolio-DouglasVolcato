@@ -76,6 +76,9 @@ p{
     border-style: solid;
     border-color:rgb(204, 255, 0);
 }
+.mostrarCodigo{
+    position: absolute;
+}
 .listaProjetos{
     list-style: none;
 }
