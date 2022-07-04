@@ -1,10 +1,8 @@
-
-*{
-    font-family:monospace;
-    color:rgb(0, 255, 4);
-}
 body{
     padding: 9vw 1vw 1vw 1vw;
+    font-family:monospace;
+    color:rgb(0, 255, 4);
+    background-image: url(/assets/images/pexels-kai-pilger-1341279.jpg);
 }
 #titulo{
     text-align: center;
