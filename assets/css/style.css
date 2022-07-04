@@ -1,0 +1,285 @@
+
+*{
+    font-family:monospace;
+    color:rgb(0, 255, 4);
+    background-image: url("/assets/images/fundo.jpg")
+}
+body{
+    padding: 9vw 1vw 1vw 1vw;
+}
+#titulo{
+    text-align: center;
+    font-size: 3.5vw;
+    margin-top: 1vw;
+}
+h2{
+    text-align: left;
+    font-size: 2.5vw;
+    margin: 4vw 0vw 2vw 0vw;
+}
+p{
+    font-size: 1.5vw;
+}
+#navegacao{
+    display: flex;
+    justify-content: center;
+}
+.itemNavegacao{
+    color:rgb(0, 255, 4);
+    font-size: 2vw;
+    background-color: rgb(0, 0, 0);
+    height: 3vw;
+    width: 15vw;
+    border-style: solid;
+    border-width: 0.35vw;
+    border-color: aqua;
+    margin: 1.2vw;
+    text-align: center;
+}
+.itemNavegacao:hover{
+    border-color: rgb(204, 255, 0);
+}
+#sobreMim{
+    margin-top: 10vw;
+    padding-top: 10vw;
+    margin-left: 8vw;
+}
+#descricao{
+    text-align: left;
+    margin-right: 50vw;
+    margin-left: 8vw;
+}
+#imagem{
+    width: 25vw;
+    margin-right: 10vw;
+    border-color: rgb(279, 255, 0);
+    border-style: solid;
+    border-radius: 5vw;
+    border-width: 0.7vw;
+}
+#tecnologias{
+    margin-top: 25vw;
+    text-align: center;
+}
+#logosTecnologias{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7vw;
+}
+.logo{
+    width: 8vw;
+    margin: 2vw;
+    border-radius: 10%;
+    border-width: 0.6vw;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+.logo:hover{
+    border-style: solid;
+    border-color:rgb(204, 255, 0);
+}
+.mostrarCodigo{
+    position: absolute;
+}
+.listaProjetos{
+    list-style: none;
+}
+#projetos{
+    text-align: center;
+    margin-top: 10vw;
+}
+#imagem2{
+    width: 30vw;
+    margin-right: 10vw;
+    padding-top: 5vw;
+}
+summary{
+    text-align: left;
+    font-size: 1.8vw;
+    margin: 0.5vw 0.5vw 1.5vw 0vw;
+}
+summary:hover{
+    color: rgb(204, 255, 0);
+}
+.summaryMin{
+    text-align: left;
+    font-size: 1.4vw;
+    margin: 0.5vw 0.5vw 0.5vw 0vw;
+    color: aqua;
+}
+.summaryLink{
+    text-align: left;
+    font-size: 1.4vw;
+    margin: 0.5vw 0.5vw 0.5vw 0vw;
+    color: aqua;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(0, 0, 0);
+}
+.summaryLink:hover{
+    border-color: rgb(204, 255, 0);
+}
+iframe{
+    width: 70vw;
+    height: 30vw;
+    border-width: 0.20vw;
+    border-style: solid;
+    border-color: rgb(204, 255, 0);
+}
+details{
+    margin: 2vw;
+}
+#contatos{
+    margin-top: 10vw;
+    text-align: center;
+}
+#logosContatos{
+    display: flex;
+    justify-content: center;
+}
+#final{
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 15vw;
+}
+@media(max-width:700px) {
+    body{
+        padding: 3vw 3vw 0.5vw 3vw;
+    }
+    #titulo{
+        text-align: center;
+        font-size: 6vw;
+        margin-top: 0.2vw;
+    }
+    h2{
+        text-align: left;
+        font-size: 5vw;
+        margin: 2vw 0vw 1vw 0vw;
+    }
+    p{
+        font-size: 4vw;
+    }
+    #navegacao{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 25vw;
+    }
+    .itemNavegacao{
+        color:rgb(0, 255, 4);
+        font-size: 4vw;
+        background-color: rgb(0, 0, 0);
+        height: 6vw;
+        width: 30vw;
+        border-style: solid;
+        border-width: 0.35vw;
+        border-color: aqua;
+        margin: 0.6vw;
+        text-align: center;
+    }
+    .itemNavegacao:hover{
+        border-color: rgb(204, 255, 0);
+    }
+    #sobreMim{
+        margin-top: 0vw;
+        padding-top: 0vw;
+    }
+    #descricao{
+        text-align: left;
+        margin-right: 0vw;
+    }
+    #imagem{
+        width: 25vw;
+        margin-right: 0vw;
+        border-color: rgb(279, 255, 0);
+        border-style: solid;
+        border-radius: 5vw;
+        border-width: 0.7vw;
+    }
+    #tecnologias{
+        margin-top: 25vw;
+        text-align: center;
+    }
+    #logosTecnologias{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0vw;
+    }
+    .logo{
+        width: 16vw;
+        margin: 4vw;
+        border-radius: 10%;
+        border-width: 0.6vw;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+    }
+    .logo:hover{
+        border-style: solid;
+        border-color:rgb(204, 255, 0);
+    }
+    .mostrarCodigo{
+        position: absolute;
+    }
+    .listaProjetos{
+        list-style: none;
+    }
+    #projetos{
+        text-align: center;
+        margin-top: 21vw;
+    }
+    #imagem2{
+        width: 0vw;
+        margin-right: 0vw;
+        padding-top: 0vw;
+    }
+    summary{
+        text-align: left;
+        font-size: 4vw;
+        margin: 0.9vw 0.9vw 0vw 0vw;
+    }
+    summary:hover{
+        color: rgb(204, 255, 0);
+    }
+    .summaryMin{
+        text-align: left;
+        font-size: 3.5vw;
+        margin: 0.5vw 0.5vw 0.5vw 0vw;
+        color: aqua;
+    }
+    .summaryLink{
+        text-align: left;
+        font-size: 3.5vw;
+        margin: 0.5vw 0.5vw 0.5vw 0vw;
+        color: aqua;
+        border-style: solid;
+        border-width: 0.5vw;
+        border-color: rgb(0, 0, 0);
+    }
+    .summaryLink:hover{
+        border-color: rgb(204, 255, 0);
+    }
+    iframe{
+        width: 70vw;
+        height: 50vw;
+        border-width: 0.20vw;
+        border-style: solid;
+        border-color: rgb(204, 255, 0);
+    }
+    details{
+        margin: 0vw;
+    }
+    #contatos{
+        margin-top: 25vw;
+        text-align: center;
+    }
+    #logosContatos{
+        display: flex;
+        justify-content: center;
+    }
+    #final{
+        font-size: 3vw;
+        text-align: center;
+        margin-top: 10vw;
+    }
+}
