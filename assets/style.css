@@ -134,10 +134,16 @@ details{
     display: flex;
     justify-content: center;
 }
+#tema{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vw;
+    text-align: center;
+}
 #final{
     font-size: 1.2vw;
     text-align: center;
-    margin-top: 15vw;
+    margin-top: 10vw;
 }
 @media(max-width:700px) {
     body{
@@ -280,3 +286,4 @@ details{
         margin-top: 10vw;
     }
 }
+
